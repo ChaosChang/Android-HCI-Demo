@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--scaletype控制图像控件大小尺寸比例什么的-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/app_load"
+        android:src="@drawable/login"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        />
+</LinearLayout>
